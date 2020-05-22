@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Lucas\.Rider2019.1\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Lucas\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Lucas\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_VexTesting.290865115.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Lucas\Desktop\Projects\2020-4659-Vex\CodeRepo\VexTesting" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Driver.cs" t="Include" />
+        <e p="SampleScript.cs" t="Include" />
+        <e p="UnityNativeTool" t="Include">
+          <e p="Attributes.cs" t="Include" />
+          <e p="Detour.cs" t="Include" />
+          <e p="DllLoadException.cs" t="Include" />
+          <e p="DllManipulator.cs" t="Include" />
+          <e p="DllManipulator.ReflectionData.cs" t="Include" />
+          <e p="DllManipulatorScript.cs" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="DllManipulatorEditor.cs" t="Include" />
+            <e p="DllManipulatorWindowEditor.cs" t="Include" />
+            <e p="mcpiroman.UnityNativeTool.Editor.asmdef" t="Include" />
+          </e>
+          <e p="IlGeneratorExtensions.cs" t="Include" />
+          <e p="LICENSE.txt" t="Include" />
+          <e p="LowLevelPluginManager.cs" t="Include" />
+          <e p="mcpiroman.UnityNativeTool.asmdef" t="Include" />
+          <e p="MethodInvoker.cs" t="Include" />
+          <e p="NativeDll.cs" t="Include" />
+          <e p="NativeFunction.cs" t="Include" />
+          <e p="NativeFunctionSignature.cs" t="Include" />
+          <e p="PathUtils.cs" t="Include" />
+          <e p="PInvokes.cs" t="Include" />
+        </e>
+      </e>
+      <e p="mcpiroman.UnityNativeTool.csproj" t="IncludeRecursive" />
+      <e p="mcpiroman.UnityNativeTool.Editor.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="VexTesting.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
