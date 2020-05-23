@@ -289,7 +289,7 @@ MonoBehaviour:
   Options:
     dllPathPattern: '{assets}/Plugins/__{name}.dll'
     assemblyNames: []
-    loadingMode: 0
+    loadingMode: 1
     posixDlopenFlags: 1
     threadSafe: 0
     enableCrashLogs: 0

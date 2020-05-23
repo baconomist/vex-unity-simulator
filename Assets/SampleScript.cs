@@ -3,52 +3,70 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Runtime.InteropServices;
+using System.Text;
 
 // https://www.codeproject.com/Articles/12673/Calling-Managed-NET-C-COM-Objects-from-Unmanaged-C
 
 public class SampleScript : MonoBehaviour
 {
     public bool validate;
-    
-    // https://www.youtube.com/watch?v=w3jGgTHJoCY
+
+//    // https://www.youtube.com/watch?v=w3jGgTHJoCY
+//    [DllImport("CPPSimulatorAPI")]
+//    static extern IntPtr GetSharedRobotAPI();
+
+//    [DllImport("CPPSimulatorAPI")]
+//    static extern void DeleteSharedRobotAPI(IntPtr api);
+//
+
+    // https://stackoverflow.com/questions/58427937/c-sharp-capture-output-from-c-dll
     [DllImport("CPPSimulatorAPI")]
-    static extern IntPtr GetSharedRobotAPI();
+    static extern void UpdateAutonomous();
 
     [DllImport("CPPSimulatorAPI")]
-    static extern void DeleteSharedRobotAPI(IntPtr api);
+    static extern int Test();
 
     [DllImport("CPPSimulatorAPI")]
-    static extern float GetControlVelocity(IntPtr api);
+    static extern void ReadOutputBuffer(StringBuilder outBuffer);
 
     [DllImport("CPPSimulatorAPI")]
-    static extern float NotifyOfVelocity(IntPtr api, float velocity);
-    
+    static extern int GetOutputBufferSize();
+
     private IntPtr _sharedApi;
 
-    public string GetHelloWorld()
+    void OnValidate()
     {
-        return "Hello World!";
+//        _sharedApi = GetSharedRobotAPI();
+        Debug.Log("Test Method: " + Test());
+        UpdateAutonomous();
+        UpdateAutonomous();
+        UpdateAutonomous();
+
+        int outputBufferSize = GetOutputBufferSize();
+
+        StringBuilder buffer = new StringBuilder(outputBufferSize);
+        ReadOutputBuffer(buffer);
+        Debug.Log(buffer);
+        
+//        unsafe
+//        {
+//            string buffer = "";
+//            int* arr = (int*) ReadOutputBuffer().ToPointer();
+//            for (int i = 0; i < GetOutputBufferSize(); i++)
+//            {
+//                buffer += arr[i].ToString();
+//            }
+//
+//            Debug.Log("Output Buffer: " + buffer);
+//        }
     }
 
-    void OnValidate ()
+    private void Update()
     {
-        _sharedApi = GetSharedRobotAPI();
-        NotifyOfVelocity(_sharedApi, 1000f);
-        Debug.Log(GetControlVelocity(_sharedApi));
-        NotifyOfVelocity(_sharedApi, 20f);
-        Debug.Log(GetControlVelocity(_sharedApi));
     }
 
     private void OnDestroy()
     {
-        DeleteSharedRobotAPI(_sharedApi);
+//        DeleteSharedRobotAPI(_sharedApi);
     }
-
-    // https://stackoverflow.com/questions/778590/calling-c-sharp-code-from-c
-    // https://github.com/3F/DllExport
-//    [DllExport]
-//    public static string TestCSharp()
-//    {
-//        return "It works!";
-//    }
 }
