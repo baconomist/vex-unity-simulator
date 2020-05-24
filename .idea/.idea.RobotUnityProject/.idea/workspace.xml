@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="732f259f-b658-4fa1-83ef-1560d91b539f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/SampleScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SampleScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RobotUnityProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobotUnityProject/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RobotUnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RobotUnityProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/__CPPSimulatorAPI.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/__CPPSimulatorAPI.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SampleScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SampleScript.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,19 +17,250 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/SampleScript.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/UnityNativeTool/Editor/DllManipulatorEditor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+            <state relative-caret-position="390">
+              <caret line="177" column="28" selection-start-line="177" selection-start-column="28" selection-end-line="177" selection-end-column="63" />
               <folding>
-                <marker date="1590256010587" expanded="true" signature="6:149" ph="..." />
-                <marker date="1590256010587" expanded="true" signature="290:1868" ph="{...}" />
-                <marker date="1590256010587" expanded="true" signature="320:644" ph="/* https://www.youtube.com/watch?v=w3jGgTHJoCY ... */" />
-                <marker date="1590256010587" expanded="true" signature="1026:1741" ph="{...}" />
-                <marker date="1590256010587" expanded="true" signature="1400:1735" ph="/* unsafe ... */" />
-                <marker date="1590256010587" expanded="true" signature="1768:1780" ph="{...}" />
-                <marker date="1590256010587" expanded="true" signature="1810:1866" ph="{...}" />
+                <marker date="1588925448000" expanded="false" signature="6:223" ph="..." />
+                <marker date="1588925448000" expanded="true" signature="259:22340" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="357:22338" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="6968:7116" ph="/// Used to check if the options have changed, in order to set the object as dirty so changes are saved ... " />
+                <marker date="1588925448000" expanded="true" signature="7322:7521" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="7559:7754" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="7801:8112" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="8122:8437" ph="/// Detects whether the &lt;see cref=&quot;DllManipulatorScript.Options&quot;/&gt; have changed, both relative to the previous ... " />
+                <marker date="1588925448000" expanded="true" signature="8502:10039" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="8626:9038" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="8693:9024" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="8732:8901" ph="/* If the options have changed then update the _prevOptions and notify there are changes to be saved ... */" />
+                <marker date="1588925448000" expanded="true" signature="9204:9643" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="9300:9469" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="9555:9629" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="9969:10029" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="10049:10308" ph="/// Draws GUI related to the current state of the DllManipulator. ... " />
+                <marker date="1588925448000" expanded="true" signature="10370:13384" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="10614:12755" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="10743:11228" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="10813:11100" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="10908:11078" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="11280:12700" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="11382:12000" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="11807:11978" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="12772:13037" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="13084:13374" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="13450:14618" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="13595:14608" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="13795:14542" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="13984:14078" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="14683:18704" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="15274:15349" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="15366:17169" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="15994:17101" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="16201:16762" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="16834:17023" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="17857:17966" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="18260:18694" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="18714:18961" ph="/// Will search for all managed assemblies and store them in &lt;see cref=&quot;_possibleTargetAssemblies&quot;/&gt;. ... " />
+                <marker date="1588925448000" expanded="true" signature="19016:19972" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="20112:21237" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="20211:20524" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="20386:20461" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="21307:21502" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="21759:21817" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="22045:22105" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="22271:22332" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/VexSimulator/DLLReloader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1590343878149" expanded="true" signature="0:2884" ph="/* using System; ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/VexSimulator/DLLReloaderUnity.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+              <folding>
+                <marker date="1590344233053" expanded="false" signature="6:51" ph="..." />
+                <marker date="1590344233053" expanded="true" signature="53:240" ph="/* Unloads all loaded DLLs when you exit Unity and loads them back in when you enter. ... */" />
+                <marker date="1590344233053" expanded="true" signature="263:1679" ph="{...}" />
+                <marker date="1590344233053" expanded="true" signature="408:1677" ph="{...}" />
+                <marker date="1590344233053" expanded="true" signature="572:779" ph="{...}" />
+                <marker date="1590344233053" expanded="true" signature="598:769" ph="{...}" />
+                <marker date="1590344233053" expanded="true" signature="814:946" ph="{...}" />
+                <marker date="1590344233053" expanded="true" signature="992:1671" ph="{...}" />
+                <marker date="1590344233053" expanded="true" signature="1103:1564" ph="{...}" />
+                <marker date="1590344233053" expanded="true" signature="1201:1366" ph="{...}" />
+                <marker date="1590344233053" expanded="true" signature="1387:1550" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/VexSimulator/SampleScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+              <folding>
+                <marker date="1590344233043" expanded="false" signature="6:172" ph="..." />
+                <marker date="1590344233043" expanded="true" signature="294:2063" ph="{...}" />
+                <marker date="1590344233043" expanded="true" signature="371:2061" ph="{...}" />
+                <marker date="1590344233043" expanded="true" signature="409:737" ph="/* https://www.youtube.com/watch?v=w3jGgTHJoCY ... */" />
+                <marker date="1590344233043" expanded="true" signature="1159:1906" ph="{...}" />
+                <marker date="1590344233043" expanded="true" signature="1561:1896" ph="/* unsafe ... */" />
+                <marker date="1590344233043" expanded="true" signature="1937:1957" ph="{...}" />
+                <marker date="1590344233043" expanded="true" signature="1991:2055" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/UnityNativeTool/DllManipulator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-225">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <marker date="1588926207000" expanded="false" signature="6:255" ph="..." />
+                <marker date="1588926207000" expanded="true" signature="298:36761" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="460:34711" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="822:937" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="1005:1140" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="2727:3046" ph="/// Initialization. ... " />
+                <marker date="1588926207000" expanded="true" signature="3159:6328" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="4246:4346" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="4396:6227" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="4509:6213" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="4655:6195" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="4751:5328" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="5357:6173" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="6338:6436" ph="/// Will unload/forget all dll's and reset the state  ... " />
+                <marker date="1588926207000" expanded="true" signature="6471:6760" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="6906:7870" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="7250:7493" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="7510:7860" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="7880:7976" ph="/// Loads all DLLs and functions for mocked methods ... " />
+                <marker date="1588926207000" expanded="true" signature="8013:9078" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="8202:8963" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="8266:8949" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="8335:8931" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="8427:8550" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="8600:8757" ph="/* Notify that the dll and its functions have been loaded in preload mode ... */" />
+                <marker date="1588926207000" expanded="true" signature="8983:9068" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="9088:9184" ph="/// Unloads all DLLs and functions currently loaded ... " />
+                <marker date="1588926207000" expanded="true" signature="9223:10231" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="9412:10116" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="9476:10102" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="9545:10084" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="10136:10221" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="10277:10368" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="10415:10892" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="10466:10882" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="10698:10868" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="10902:10999" ph="/// Creates information snapshot of all known DLLs.  ... " />
+                <marker date="1588926207000" expanded="true" signature="11061:11529" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="11199:11489" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="11598:11791" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="11860:12097" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="12107:12293" ph="/// Creates and registers new DynamicMethod that mocks &lt;paramref name=&quot;nativeMethod&quot;/&gt; and itself calls dynamical ... " />
+                <marker date="1588926207000" expanded="true" signature="12383:15212" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="12487:15161" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="12806:12882" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="12903:13173" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="13983:14276" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="14745:14877" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="15374:18826" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="15500:15910" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="16278:16634" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="16702:17646" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="16917:17269" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="17852:17919" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="18225:18782" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="18836:18967" ph="/// Prepares &lt;paramref name=&quot;method&quot;/&gt; to be injected (aka. patched) into other method ... " />
+                <marker date="1588926207000" expanded="true" signature="19038:19536" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="19061:19134" ph="/* From https://github.com/pardeike/Harmony ... */" />
+                <marker date="1588926207000" expanded="true" signature="19203:19399" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="19416:19526" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="19674:22997" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="19736:20089" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="22084:22322" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="22396:22905" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="22637:22891" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="23136:25135" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="23225:25125" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="25145:25478" ph="/// Loads DLL and function delegate of &lt;paramref name=&quot;nativeFunction&quot;/&gt; if not yet loaded. ... " />
+                <marker date="1588926207000" expanded="true" signature="25579:27721" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="25684:26778" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="25796:26228" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="25856:26181" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="26249:26764" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="26415:26605" ph="/* Call the custom triggers once UnityPluginLoad has been called ... */" />
+                <marker date="1588926207000" expanded="true" signature="26829:27711" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="26986:27474" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="27046:27427" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="27495:27576" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="27826:28771" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="27965:28761" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="28789:29050" ph="/// Ensure the action is executed on the main thread. Executes immediately if on the main thread already, ... " />
+                <marker date="1588926207000" expanded="true" signature="29114:29329" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="29339:29621" ph="/// Logs native function's call to file. If that file exists, it is overwritten. One file is maintained for each  ... " />
+                <marker date="1588926207000" expanded="true" signature="29720:33403" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="30072:33393" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="30149:33379" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="30612:30714" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="30739:32570" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="30872:32548" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="31064:31178" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="31211:32474" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="31288:32444" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="33101:33361" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="33462:33855" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="33915:34261" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="34346:34705" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="34770:36685" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="35326:36004" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="36061:36679" ph="{...}" />
+                <marker date="1588926207000" expanded="true" signature="36717:36759" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/UnityNativeTool/Attributes.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="48" />
+              <folding>
+                <marker date="1588925448000" expanded="true" signature="40:3877" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="47:232" ph="/// Member native functions in types with this attributes will be mocked. This attribute is redundant if &quot;Mock al ... " />
+                <marker date="1588925448000" expanded="true" signature="406:419" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="425:593" ph="/// Native functions with this attribute will be mocked. This attribute is redundant if &quot;Mock all native function ... " />
+                <marker date="1588925448000" expanded="true" signature="741:754" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="760:941" ph="/// Applied to native function, prevents it from being mocked. ... " />
+                <marker date="1588925448000" expanded="true" signature="1133:1146" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="1152:1440" ph="/// Such a method must be static and have one of the following signatures: ... " />
+                <marker date="1588925448000" expanded="true" signature="1573:1911" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="1588:1857" ph="/// Should the method always be executed on the main thread, to allow use of the Unity API. ... " />
+                <marker date="1588925448000" expanded="true" signature="1921:2516" ph="/// Methods with this attribute are called directly after a native DLL has been loaded. Native functions can be u ... " />
+                <marker date="1588925448000" expanded="true" signature="2672:2685" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="2691:3109" ph="/// Methods with this attribute are called directly before a native DLL is going to be unloaded. ... " />
+                <marker date="1588925448000" expanded="true" signature="3271:3284" ph="{...}" />
+                <marker date="1588925448000" expanded="true" signature="3290:3701" ph="/// Methods with this attribute are called directly after a native DLL has been unloaded. ... " />
+                <marker date="1588925448000" expanded="true" signature="3862:3875" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -36,20 +271,49 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Auton</find>
+      <find>DllManipulatorScript</find>
+      <find>dll</find>
+      <find>DLL path</find>
+      <find>DLL_PATH_PATTERN_GUI_CONTENT</find>
+      <find>dllPathPattern</find>
+      <find>MockNativeDec</find>
+      <find>EXPORT_UNITY_METHOD</find>
+      <find>const char*</find>
+      <find>\</find>
+      <find>Update</find>
+      <find>txtpath</find>
+      <find>Load All Dlls</find>
     </findStrings>
+    <replaceStrings>
+      <replace>static extern</replace>
+      <replace>string</replace>
+      <replace>\\</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/437BA245-D840-4784-B9FB-AB9B439AC908/b7/65c0f07e/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SampleScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnityNativeTool/Editor/DllManipulatorEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VexSimulator/DLLReloaderUnity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VexSimulator/DLLReloader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VexSimulator/SampleScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnityNativeTool/DllManipulator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/480B5A3B-D321-4CE5-831F-6DD8C68FDC55/c0/3755d90a/GenericInspector.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnityNativeTool/Attributes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnityNativeTool/NativeFunction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/437BA245-D840-4784-B9FB-AB9B439AC908/b7/65c0f07e/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/af/5ab05f0c/DllImportAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnityNativeTool/DllManipulatorScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/SampleScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/DLLReloader.cs" />
+        <option value="$PROJECT_DIR$/Assets/DLLReloaderUnity.cs" />
+        <option value="$PROJECT_DIR$/Assets/VexSimulator/DLLReloaderUnity.cs" />
+        <option value="$PROJECT_DIR$/Assets/VexSimulator/SampleScript.cs" />
       </list>
     </option>
   </component>
@@ -72,6 +336,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -82,7 +347,11 @@
             <path>
               <item name="" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+              <item name="VexSimulator" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Packages" type="4e2708dd:PackagesRoot" />
             </path>
           </expand>
           <select />
@@ -90,11 +359,10 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -104,6 +372,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="SymbolServersPageId" />
   </component>
   <component name="RunDashboard">
@@ -145,12 +414,13 @@
       <option name="presentableId" value="Default" />
       <updated>1590181746086</updated>
       <workItem from="1590181751566" duration="5762000" />
-      <workItem from="1590240635308" duration="6672000" />
+      <workItem from="1590240635308" duration="7272000" />
+      <workItem from="1590330372886" duration="6305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12434000" />
+    <option name="totallyTimeSpent" value="19339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -165,7 +435,7 @@
     <frame x="-8" y="-8" width="2576" height="1456" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12514898" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15256257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -446,18 +716,315 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/af/5ab05f0c/DllImportAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UnityNativeTool/NativeFunction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <marker date="1584614289000" expanded="true" signature="40:1317" ph="{...}" />
+            <marker date="1584614289000" expanded="true" signature="83:867" ph="{...}" />
+            <marker date="1584614289000" expanded="true" signature="240:350" ph="{...}" />
+            <marker date="1584614289000" expanded="true" signature="399:594" ph="{...}" />
+            <marker date="1584614289000" expanded="true" signature="637:861" ph="{...}" />
+            <marker date="1584614289000" expanded="true" signature="900:1315" ph="{...}" />
+            <marker date="1584614289000" expanded="true" signature="1157:1309" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UnityNativeTool/Attributes.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <marker date="1588925448000" expanded="true" signature="40:3877" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="47:232" ph="/// Member native functions in types with this attributes will be mocked. This attribute is redundant if &quot;Mock al ... " />
+            <marker date="1588925448000" expanded="true" signature="406:419" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="425:593" ph="/// Native functions with this attribute will be mocked. This attribute is redundant if &quot;Mock all native function ... " />
+            <marker date="1588925448000" expanded="true" signature="741:754" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="760:941" ph="/// Applied to native function, prevents it from being mocked. ... " />
+            <marker date="1588925448000" expanded="true" signature="1133:1146" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="1152:1440" ph="/// Such a method must be static and have one of the following signatures: ... " />
+            <marker date="1588925448000" expanded="true" signature="1573:1911" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="1588:1857" ph="/// Should the method always be executed on the main thread, to allow use of the Unity API. ... " />
+            <marker date="1588925448000" expanded="true" signature="1921:2516" ph="/// Methods with this attribute are called directly after a native DLL has been loaded. Native functions can be u ... " />
+            <marker date="1588925448000" expanded="true" signature="2672:2685" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="2691:3109" ph="/// Methods with this attribute are called directly before a native DLL is going to be unloaded. ... " />
+            <marker date="1588925448000" expanded="true" signature="3271:3284" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="3290:3701" ph="/// Methods with this attribute are called directly after a native DLL has been unloaded. ... " />
+            <marker date="1588925448000" expanded="true" signature="3862:3875" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UnityNativeTool/DllManipulator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <marker date="1588926207000" expanded="false" signature="6:255" ph="..." />
+            <marker date="1588926207000" expanded="true" signature="298:36761" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="460:34711" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="822:937" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="1005:1140" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="2727:3046" ph="/// Initialization. ... " />
+            <marker date="1588926207000" expanded="true" signature="3159:6328" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="4246:4346" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="4396:6227" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="4509:6213" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="4655:6195" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="4751:5328" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="5357:6173" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="6338:6436" ph="/// Will unload/forget all dll's and reset the state  ... " />
+            <marker date="1588926207000" expanded="true" signature="6471:6760" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="6906:7870" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="7250:7493" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="7510:7860" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="7880:7976" ph="/// Loads all DLLs and functions for mocked methods ... " />
+            <marker date="1588926207000" expanded="true" signature="8013:9078" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="8202:8963" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="8266:8949" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="8335:8931" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="8427:8550" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="8600:8757" ph="/* Notify that the dll and its functions have been loaded in preload mode ... */" />
+            <marker date="1588926207000" expanded="true" signature="8983:9068" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="9088:9184" ph="/// Unloads all DLLs and functions currently loaded ... " />
+            <marker date="1588926207000" expanded="true" signature="9223:10231" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="9412:10116" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="9476:10102" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="9545:10084" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="10136:10221" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="10277:10368" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="10415:10892" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="10466:10882" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="10698:10868" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="10902:10999" ph="/// Creates information snapshot of all known DLLs.  ... " />
+            <marker date="1588926207000" expanded="true" signature="11061:11529" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="11199:11489" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="11598:11791" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="11860:12097" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="12107:12293" ph="/// Creates and registers new DynamicMethod that mocks &lt;paramref name=&quot;nativeMethod&quot;/&gt; and itself calls dynamical ... " />
+            <marker date="1588926207000" expanded="true" signature="12383:15212" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="12487:15161" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="12806:12882" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="12903:13173" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="13983:14276" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="14745:14877" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="15374:18826" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="15500:15910" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="16278:16634" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="16702:17646" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="16917:17269" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="17852:17919" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="18225:18782" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="18836:18967" ph="/// Prepares &lt;paramref name=&quot;method&quot;/&gt; to be injected (aka. patched) into other method ... " />
+            <marker date="1588926207000" expanded="true" signature="19038:19536" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="19061:19134" ph="/* From https://github.com/pardeike/Harmony ... */" />
+            <marker date="1588926207000" expanded="true" signature="19203:19399" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="19416:19526" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="19674:22997" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="19736:20089" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="22084:22322" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="22396:22905" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="22637:22891" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="23136:25135" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="23225:25125" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="25145:25478" ph="/// Loads DLL and function delegate of &lt;paramref name=&quot;nativeFunction&quot;/&gt; if not yet loaded. ... " />
+            <marker date="1588926207000" expanded="true" signature="25579:27721" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="25684:26778" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="25796:26228" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="25856:26181" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="26249:26764" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="26415:26605" ph="/* Call the custom triggers once UnityPluginLoad has been called ... */" />
+            <marker date="1588926207000" expanded="true" signature="26829:27711" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="26986:27474" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="27046:27427" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="27495:27576" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="27826:28771" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="27965:28761" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="28789:29050" ph="/// Ensure the action is executed on the main thread. Executes immediately if on the main thread already, ... " />
+            <marker date="1588926207000" expanded="true" signature="29114:29329" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="29339:29621" ph="/// Logs native function's call to file. If that file exists, it is overwritten. One file is maintained for each  ... " />
+            <marker date="1588926207000" expanded="true" signature="29720:33403" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="30072:33393" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="30149:33379" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="30612:30714" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="30739:32570" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="30872:32548" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="31064:31178" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="31211:32474" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="31288:32444" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="33101:33361" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="33462:33855" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="33915:34261" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="34346:34705" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="34770:36685" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="35326:36004" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="36061:36679" ph="{...}" />
+            <marker date="1588926207000" expanded="true" signature="36717:36759" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/SampleScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/DLLReloader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/DLLReloaderUnity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UnityNativeTool/DllManipulatorScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
           <folding>
-            <marker date="1590256010587" expanded="true" signature="6:149" ph="..." />
-            <marker date="1590256010587" expanded="true" signature="290:1868" ph="{...}" />
-            <marker date="1590256010587" expanded="true" signature="320:644" ph="/* https://www.youtube.com/watch?v=w3jGgTHJoCY ... */" />
-            <marker date="1590256010587" expanded="true" signature="1026:1741" ph="{...}" />
-            <marker date="1590256010587" expanded="true" signature="1400:1735" ph="/* unsafe ... */" />
-            <marker date="1590256010587" expanded="true" signature="1768:1780" ph="{...}" />
-            <marker date="1590256010587" expanded="true" signature="1810:1866" ph="{...}" />
+            <marker date="1588931436000" expanded="false" signature="6:195" ph="..." />
+            <marker date="1588931436000" expanded="true" signature="229:5843" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="341:5841" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="576:1318" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="1463:2756" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="1534:1817" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="2033:2176" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="2798:3079" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="3089:3276" ph="/// Will reset the DllManipulator and Initialize it again. ... " />
+            <marker date="1588931436000" expanded="true" signature="3311:3506" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="3524:3639" ph="/// Note: also called in edit mode if Options.enableInEditMode is set. ... " />
+            <marker date="1588931436000" expanded="true" signature="3669:3726" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="3736:3870" ph="/// Executes queued methods. ... " />
+            <marker date="1588931436000" expanded="true" signature="3921:4037" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="4101:4244" ph="/// Called when Assemblies are reloaded due to recompilation. ... " />
+            <marker date="1588931436000" expanded="true" signature="4290:4345" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="4387:5047" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="4500:5037" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="4685:4878" ph="/* When recompiling OnDestroy is not called by default (the object is not really destroyed) ... */" />
+            <marker date="1588931436000" expanded="true" signature="4914:5023" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="5088:5177" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="5207:5835" ph="{...}" />
+            <marker date="1588931436000" expanded="true" signature="5230:5663" ph="/* Note on threading: Because we don't wait for other threads to finish, we might be stealing function delegates  ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UnityNativeTool/Editor/DllManipulatorEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="177" column="28" selection-start-line="177" selection-start-column="28" selection-end-line="177" selection-end-column="63" />
+          <folding>
+            <marker date="1588925448000" expanded="false" signature="6:223" ph="..." />
+            <marker date="1588925448000" expanded="true" signature="259:22340" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="357:22338" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="6968:7116" ph="/// Used to check if the options have changed, in order to set the object as dirty so changes are saved ... " />
+            <marker date="1588925448000" expanded="true" signature="7322:7521" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="7559:7754" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="7801:8112" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="8122:8437" ph="/// Detects whether the &lt;see cref=&quot;DllManipulatorScript.Options&quot;/&gt; have changed, both relative to the previous ... " />
+            <marker date="1588925448000" expanded="true" signature="8502:10039" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="8626:9038" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="8693:9024" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="8732:8901" ph="/* If the options have changed then update the _prevOptions and notify there are changes to be saved ... */" />
+            <marker date="1588925448000" expanded="true" signature="9204:9643" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="9300:9469" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="9555:9629" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="9969:10029" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="10049:10308" ph="/// Draws GUI related to the current state of the DllManipulator. ... " />
+            <marker date="1588925448000" expanded="true" signature="10370:13384" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="10614:12755" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="10743:11228" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="10813:11100" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="10908:11078" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="11280:12700" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="11382:12000" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="11807:11978" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="12772:13037" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="13084:13374" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="13450:14618" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="13595:14608" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="13795:14542" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="13984:14078" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="14683:18704" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="15274:15349" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="15366:17169" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="15994:17101" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="16201:16762" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="16834:17023" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="17857:17966" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="18260:18694" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="18714:18961" ph="/// Will search for all managed assemblies and store them in &lt;see cref=&quot;_possibleTargetAssemblies&quot;/&gt;. ... " />
+            <marker date="1588925448000" expanded="true" signature="19016:19972" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="20112:21237" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="20211:20524" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="20386:20461" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="21307:21502" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="21759:21817" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="22045:22105" ph="{...}" />
+            <marker date="1588925448000" expanded="true" signature="22271:22332" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/VexSimulator/DLLReloader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1590343878149" expanded="true" signature="0:2884" ph="/* using System; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/VexSimulator/DLLReloaderUnity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding>
+            <marker date="1590344233053" expanded="false" signature="6:51" ph="..." />
+            <marker date="1590344233053" expanded="true" signature="53:240" ph="/* Unloads all loaded DLLs when you exit Unity and loads them back in when you enter. ... */" />
+            <marker date="1590344233053" expanded="true" signature="263:1679" ph="{...}" />
+            <marker date="1590344233053" expanded="true" signature="408:1677" ph="{...}" />
+            <marker date="1590344233053" expanded="true" signature="572:779" ph="{...}" />
+            <marker date="1590344233053" expanded="true" signature="598:769" ph="{...}" />
+            <marker date="1590344233053" expanded="true" signature="814:946" ph="{...}" />
+            <marker date="1590344233053" expanded="true" signature="992:1671" ph="{...}" />
+            <marker date="1590344233053" expanded="true" signature="1103:1564" ph="{...}" />
+            <marker date="1590344233053" expanded="true" signature="1201:1366" ph="{...}" />
+            <marker date="1590344233053" expanded="true" signature="1387:1550" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/VexSimulator/SampleScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+          <folding>
+            <marker date="1590344233043" expanded="false" signature="6:172" ph="..." />
+            <marker date="1590344233043" expanded="true" signature="294:2063" ph="{...}" />
+            <marker date="1590344233043" expanded="true" signature="371:2061" ph="{...}" />
+            <marker date="1590344233043" expanded="true" signature="409:737" ph="/* https://www.youtube.com/watch?v=w3jGgTHJoCY ... */" />
+            <marker date="1590344233043" expanded="true" signature="1159:1906" ph="{...}" />
+            <marker date="1590344233043" expanded="true" signature="1561:1896" ph="/* unsafe ... */" />
+            <marker date="1590344233043" expanded="true" signature="1937:1957" ph="{...}" />
+            <marker date="1590344233043" expanded="true" signature="1991:2055" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57bb8eb7ffeb6684aad65aebc4352e73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  validate: 0
+  validate: 1
 --- !u!4 &479259004
 Transform:
   m_ObjectHideFlags: 0
@@ -267,6 +267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 717378240}
   - component: {fileID: 717378239}
+  - component: {fileID: 717378241}
   m_Layer: 0
   m_Name: DLL Loader Unloader
   m_TagString: Untagged
@@ -295,7 +296,7 @@ MonoBehaviour:
     enableCrashLogs: 0
     crashLogsDir: '{assets}/'
     crashLogsStackTrace: 0
-    mockAllNativeFunctions: 1
+    mockAllNativeFunctions: 0
     onlyInEditor: 1
     enableInEditMode: 1
 --- !u!4 &717378240
@@ -312,6 +313,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &717378241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717378238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91f8f4b37c3d30145bda588ec824954e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wasActive: 1
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
