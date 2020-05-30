@@ -3,14 +3,17 @@ using System.Text;
 using UnityEditor;
 using UnityEngine;
 using UnityNativeTool;
+using VexSimulator.SimulatorAPI.CppAPI;
 
-namespace VexSimulator
+namespace VexSimulator.SimulatorAPI
 {
-    public class UnityCppAPI : MonoBehaviour
+    public class SimulatorAPI : MonoBehaviour
     {
+        public static bool robotInitialized = false;
+
         [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
-        private delegate void VoidCallback();
-        
+        private delegate void LoggingCallback();
+
         private enum LogLevel
         {
             Info,
@@ -20,11 +23,11 @@ namespace VexSimulator
             Exception
         }
 
-        private static VoidCallback logInfoCallback;
-        private static VoidCallback logDebugCallback;
-        private static VoidCallback logWarnCallback;
-        private static VoidCallback logErrCallback;
-        private static VoidCallback logExceptCallback;
+        private static LoggingCallback logInfoCallback;
+        private static LoggingCallback logDebugCallback;
+        private static LoggingCallback logWarnCallback;
+        private static LoggingCallback logErrCallback;
+        private static LoggingCallback logExceptCallback;
 
         public static void ReloadAPI()
         {
@@ -42,6 +45,8 @@ namespace VexSimulator
             CppAPIMethods.InitializeAPI();
             SetupLogHandlers();
             Debug.Log("Unity CPP API Setup, IsAPIInitialized() value: " + CppAPIMethods.IsAPIInitialized());
+            
+            Hardware.Setup();
         }
 
         private static void LogCPPBuffer(LogLevel logLevel)
@@ -62,13 +67,19 @@ namespace VexSimulator
         {
             Test();
         }
-
+        
         public static void Test()
         {
             if (CppAPIMethods.IsAPIInitialized() == 1)
             {
-                Debug.Log("API Init True");
-                CppAPIMethods.UpdateOpControl();
+                if (!robotInitialized)
+                {
+                    RobotEvents.RobotInitialize();
+                    RobotEvents.CompetitionInitialize();
+                    RobotEvents.InitializeAutonomous();
+                    robotInitialized = true;
+                }
+                RobotEvents.UpdateAutonomous();
             }
         }
 

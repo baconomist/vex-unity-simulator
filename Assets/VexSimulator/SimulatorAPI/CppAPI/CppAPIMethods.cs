@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using UnityEngine;
 using System.Runtime.InteropServices;
 using System.Text;
-using UnityEditor;
 using UnityNativeTool;
 
 // https://www.codeproject.com/Articles/12673/Calling-Managed-NET-C-COM-Objects-from-Unmanaged-C
 
-namespace VexSimulator
+namespace VexSimulator.SimulatorAPI.CppAPI
 {
     [MockNativeDeclarations]
     // ReSharper disable once InconsistentNaming
@@ -25,12 +20,8 @@ namespace VexSimulator
         [DllImport("CPPSimulatorAPI")]
         public static extern int IsAPIInitialized();
         
-        
         [DllImport("CPPSimulatorAPI")]
         public static extern int RunAPITests();
-
-        [DllImport("CPPSimulatorAPI")]
-        public static extern void UpdateOpControl();
 
         [DllImport("CPPSimulatorAPI")]
         public static extern void ReadOutputBuffer(StringBuilder outBuffer);

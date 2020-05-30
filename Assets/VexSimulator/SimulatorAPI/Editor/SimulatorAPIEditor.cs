@@ -1,21 +1,22 @@
 using UnityEditor;
 using UnityEngine;
+using VexSimulator.SimulatorAPI;
 
 namespace VexSimulator.Editor
 {
-    [CustomEditor(typeof(UnityCppAPI))]
-    public class UnityCPPAPIEditor : UnityEditor.Editor
+    [CustomEditor(typeof(SimulatorAPI.SimulatorAPI))]
+    public class SimulatorAPIEditor : UnityEditor.Editor
     {
         public override void OnInspectorGUI()
         {
             if (GUILayout.Button("Reset/Reload API"))
-                UnityCppAPI.ReloadAPI();
+                SimulatorAPI.SimulatorAPI.ReloadAPI();
             
             if(GUILayout.Button("Run API Tests"))
-                UnityCppAPI.RunAPITests();
-            
+                SimulatorAPI.SimulatorAPI.RunAPITests();
+
             if(GUILayout.Button("Run Test() Method"))
-                UnityCppAPI.Test();
+                SimulatorAPI.SimulatorAPI.Test();
 
             base.OnInspectorGUI();
         }

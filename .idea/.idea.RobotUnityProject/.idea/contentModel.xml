@@ -32,13 +32,20 @@
           <e p="PInvokes.cs" t="Include" />
         </e>
         <e p="VexSimulator" t="Include">
-          <e p="CppAPIMethods.cs" t="Include" />
           <e p="DLLReloader.cs" t="Include" />
           <e p="DLLReloaderUnity.cs" t="Include" />
           <e p="Editor" t="Include">
             <e p="UnityCPPAPIEditor.cs" t="Include" />
           </e>
-          <e p="UnityCPPAPi.cs" t="Include" />
+          <e p="Robot.cs" t="Include" />
+          <e p="SimulatorAPI" t="Include">
+            <e p="CppAPI" t="Include">
+              <e p="CppAPIMethods.cs" t="Include" />
+              <e p="Hardware.cs" t="Include" />
+              <e p="RobotEvents.cs" t="Include" />
+            </e>
+            <e p="UnityCPPAPi.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="mcpiroman.UnityNativeTool.csproj" t="IncludeRecursive" />

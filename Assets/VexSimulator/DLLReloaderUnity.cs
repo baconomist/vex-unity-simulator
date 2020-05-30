@@ -1,6 +1,7 @@
 using System;
 using UnityEditor;
 using UnityEngine;
+using VexSimulator.SimulatorAPI;
 
 /**
  * Unloads all loaded DLLs when you exit Unity and loads them back in when you enter.
