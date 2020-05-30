@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Lucas\.Rider2019.1\config\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\Lucas\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Lucas\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_RobotUnityProject.-611811489.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Lucas\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Lucas\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_RobotUnityProject.-611811489.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Lucas\AppData\Roaming\JetBrains\Rider2020.1\scratches" t="IncludeRecursive" />
     <e p="C:\Users\Lucas\Desktop\Projects\2020-4659-Vex\CodeRepo\RobotUnityProject" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="UnityNativeTool" t="Include">
@@ -31,9 +32,13 @@
           <e p="PInvokes.cs" t="Include" />
         </e>
         <e p="VexSimulator" t="Include">
+          <e p="CppAPIMethods.cs" t="Include" />
           <e p="DLLReloader.cs" t="Include" />
           <e p="DLLReloaderUnity.cs" t="Include" />
-          <e p="SampleScript.cs" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="UnityCPPAPIEditor.cs" t="Include" />
+          </e>
+          <e p="UnityCPPAPi.cs" t="Include" />
         </e>
       </e>
       <e p="mcpiroman.UnityNativeTool.csproj" t="IncludeRecursive" />
