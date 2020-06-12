@@ -4,19 +4,19 @@ using VexSimulator.SimulatorAPI;
 
 namespace VexSimulator.Editor
 {
-    [CustomEditor(typeof(SimulatorAPI.SimulatorAPI))]
+    [CustomEditor(typeof(SimulatorAPI.APIMethods))]
     public class SimulatorAPIEditor : UnityEditor.Editor
     {
         public override void OnInspectorGUI()
         {
             if (GUILayout.Button("Reset/Reload API"))
-                SimulatorAPI.SimulatorAPI.ReloadAPI();
+                SimulatorAPI.APIMethods.Reload();
             
             if(GUILayout.Button("Run API Tests"))
-                SimulatorAPI.SimulatorAPI.RunAPITests();
+                SimulatorAPI.APIMethods.RunTests();
 
             if(GUILayout.Button("Run Test() Method"))
-                SimulatorAPI.SimulatorAPI.Test();
+                SimulatorAPI.APIMethods.Test();
 
             base.OnInspectorGUI();
         }
