@@ -2,6 +2,7 @@ using System;
 using UnityEditor;
 using UnityEngine;
 using VexSimulator.SimulatorAPI;
+using VexSimulator.SimulatorAPI.UnsafeCppAPI;
 
 /**
  * Unloads all loaded DLLs when you exit Unity and loads them back in when you enter.
@@ -14,7 +15,7 @@ namespace VexSimulator
     public class DLLReloaderUnity : MonoBehaviour
     {
         [HideInInspector] public bool wasActive = false;
-        
+
         private static DLLReloaderUnity _instance;
 
         // Ensure DLLs are unloaded when Unity starts
@@ -34,21 +35,25 @@ namespace VexSimulator
         // When we focus/unfocus Unity, load/unload the DLLs
         private static void UpdateReloader()
         {
-            if (_instance.wasActive != UnityEditorInternal.InternalEditorUtility.isApplicationActive)
+            // Don't accidentally unload while playing
+            if (!Application.isPlaying)
             {
-                if (!UnityEditorInternal.InternalEditorUtility.isApplicationActive)
+                if (_instance.wasActive != UnityEditorInternal.InternalEditorUtility.isApplicationActive)
                 {
-                    Unload();
+                    if (!UnityEditorInternal.InternalEditorUtility.isApplicationActive)
+                    {
+                        Unload();
+                    }
+                    else
+                    {
+                        Load();
+                    }
                 }
-                else
-                {
-                    Load();
-                }
-            }
 
-            _instance.wasActive = UnityEditorInternal.InternalEditorUtility.isApplicationActive;
+                _instance.wasActive = UnityEditorInternal.InternalEditorUtility.isApplicationActive;
+            }
         }
-        
+
         public static void Load()
         {
             UnityNativeTool.Internal.DllManipulator.LoadAll();
@@ -59,7 +64,8 @@ namespace VexSimulator
         {
             // Need to destroy the api on unload so that the VectoredExceptionHandler is removed, otherwise a crash occurs
             // It's probably good to do this here anyways
-            UnityCppAPI.DestroyAPI();
+            if(UnsafeAPIMethods.IsAPIInitialized() == 1)
+                SimulatorAPI.APIMethods.DestroyAPI();
             UnityNativeTool.Internal.DllManipulator.UnloadAll();
             EditorApplication.isPaused = false;
         }
