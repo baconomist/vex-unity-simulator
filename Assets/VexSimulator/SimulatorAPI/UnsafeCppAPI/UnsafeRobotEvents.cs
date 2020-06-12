@@ -1,10 +1,10 @@
 using System.Runtime.InteropServices;
 using UnityNativeTool;
 
-namespace VexSimulator.SimulatorAPI.CppAPI
+namespace VexSimulator.SimulatorAPI.UnsafeCppAPI
 {
     [MockNativeDeclarations]
-    public class RobotEvents
+    public static class UnsafeRobotEvents
     {
         [DllImport("CPPSimulatorAPI")]
         public static extern void RobotInitialize();
