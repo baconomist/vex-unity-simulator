@@ -12,5 +12,8 @@ namespace VexSimulator.SimulatorAPI.UnsafeCppAPI
 
         [DllImport("CPPSimulatorAPI")]
         public static extern void SetMotorVoltageChangeCallback(IntPtr callback);
+
+        [DllImport("CPPSimulatorAPI")]
+        public static extern void SetVisionLEDChangeCallback(IntPtr callback);
     }
 }

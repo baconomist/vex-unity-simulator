@@ -36,6 +36,9 @@
           <e p="DLLReloaderUnity.cs" t="Include" />
           <e p="MotorizedWheel.cs" t="Include" />
           <e p="Robot.cs" t="Include" />
+          <e p="Sensors" t="Include">
+            <e p="VisionSensor.cs" t="Include" />
+          </e>
           <e p="Simulator.cs" t="Include" />
           <e p="SimulatorAPI" t="Include">
             <e p="APIMethods.cs" t="Include" />

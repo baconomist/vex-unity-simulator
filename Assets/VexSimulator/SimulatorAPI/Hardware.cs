@@ -7,8 +7,12 @@ namespace VexSimulator.SimulatorAPI
     {
         [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
         public delegate void MotorVoltageChangeCallback(int motorPort, int motorVoltage);
+        
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
+        public delegate void VisionLEDChangeCallback(int visionPort, int rgb);
 
         public static event MotorVoltageChangeCallback OnMotorVoltageChange;
+        public static event VisionLEDChangeCallback OnVisionLEDChange;
 
         public static void Setup()
         {
@@ -20,10 +24,17 @@ namespace VexSimulator.SimulatorAPI
         {
             OnMotorVoltageChange?.Invoke(motorPort, motorVoltage);
         }
+        
+        [ThreadedMethod]
+        private static void OnVisionLEDChangeListener(int visionPort, int rgb)
+        {
+            OnVisionLEDChange?.Invoke(visionPort, rgb);
+        }
 
         private static void SetupMotorCallbacks()
         {
             UnsafeCppAPI.UnsafeHardware.SetMotorVoltageChangeCallback(Marshal.GetFunctionPointerForDelegate((MotorVoltageChangeCallback) OnMotorVoltageChangeListener));
+            UnsafeCppAPI.UnsafeHardware.SetVisionLEDChangeCallback(Marshal.GetFunctionPointerForDelegate((VisionLEDChangeCallback) OnVisionLEDChangeListener));
         }
     }
 }

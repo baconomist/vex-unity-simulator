@@ -28,7 +28,7 @@ namespace VexSimulator
         private bool _canRobotThreadUpdate = false;
 
         private MotorizedWheel[] _wheels;
-
+        
         public void Awake()
         {
             Hardware.OnMotorVoltageChange -= OnMotorVoltageChange;
