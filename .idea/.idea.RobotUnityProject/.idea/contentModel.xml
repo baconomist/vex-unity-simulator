@@ -32,19 +32,25 @@
           <e p="PInvokes.cs" t="Include" />
         </e>
         <e p="VexSimulator" t="Include">
-          <e p="DLLReloader.cs" t="Include" />
+          <e p="Attributes.cs" t="Include" />
           <e p="DLLReloaderUnity.cs" t="Include" />
-          <e p="Editor" t="Include">
-            <e p="UnityCPPAPIEditor.cs" t="Include" />
-          </e>
+          <e p="MotorizedWheel.cs" t="Include" />
           <e p="Robot.cs" t="Include" />
+          <e p="Simulator.cs" t="Include" />
           <e p="SimulatorAPI" t="Include">
-            <e p="CppAPI" t="Include">
-              <e p="CppAPIMethods.cs" t="Include" />
-              <e p="Hardware.cs" t="Include" />
-              <e p="RobotEvents.cs" t="Include" />
+            <e p="APIMethods.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="SimulatorAPIEditor.cs" t="Include" />
             </e>
-            <e p="UnityCPPAPi.cs" t="Include" />
+            <e p="Hardware.cs" t="Include" />
+            <e p="Logging.cs" t="Include" />
+            <e p="RobotEvents.cs" t="Include" />
+            <e p="UnsafeCppAPI" t="Include">
+              <e p="UnsafeAPIMethods.cs" t="Include" />
+              <e p="UnsafeHardware.cs" t="Include" />
+              <e p="UnsafeLogging.cs" t="Include" />
+              <e p="UnsafeRobotEvents.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>
