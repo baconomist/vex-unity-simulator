@@ -8,9 +8,6 @@ namespace VexSimulator.SimulatorAPI.UnsafeCppAPI
     public static class UnsafeHardware
     {
         [DllImport("CPPSimulatorAPI")]
-        public static extern int GetMaxMotors();
-
-        [DllImport("CPPSimulatorAPI")]
         public static extern void SetMotorVoltageChangeCallback(IntPtr callback);
 
         [DllImport("CPPSimulatorAPI")]
