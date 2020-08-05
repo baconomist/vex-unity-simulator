@@ -1,7 +1,11 @@
 using System;
+using System.Runtime.ExceptionServices;
+using System.Security;
+using UnityEngine;
 
 namespace VexSimulator.SimulatorAPI
 {
+    // TODO: add safety check
     public static class RobotEvents
     {
         private static bool _robotInitialized = false;
@@ -11,7 +15,7 @@ namespace VexSimulator.SimulatorAPI
         public static void RobotInitialize()
         {
             APIMethods.RequireAPIInitialized();
-            UnsafeCppAPI.UnsafeRobotEvents.RobotInitialize();
+            UnsafeCppAPI.UnsafeRobotEvents.Initialize();
             _robotInitialized = true;
         }
 
@@ -37,7 +41,7 @@ namespace VexSimulator.SimulatorAPI
         public static void InitializeAutonomous()
         {
             APIMethods.RequireAPIInitialized();
-            UnsafeCppAPI.UnsafeRobotEvents.RobotInitialize();
+            UnsafeCppAPI.UnsafeRobotEvents.Initialize();
             _autonomousInitialized = true;
         }
 
@@ -47,12 +51,19 @@ namespace VexSimulator.SimulatorAPI
             RequireOpControlInitialized();
             UnsafeCppAPI.UnsafeRobotEvents.UpdateOpControl();
         }
-
+        
         public static void UpdateAutonomous()
         {
             APIMethods.RequireAPIInitialized();
             RequireAutonomousInitialized();
-            UnsafeCppAPI.UnsafeRobotEvents.UpdateAutonomous();
+            try
+            {
+                UnsafeCppAPI.UnsafeRobotEvents.UpdateAutonomous();
+            }
+            catch (Exception e)
+            {
+                Debug.LogError(e);
+            }
         }
 
         /**

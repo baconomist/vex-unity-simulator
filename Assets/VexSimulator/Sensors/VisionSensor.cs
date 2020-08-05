@@ -4,17 +4,19 @@ using VexSimulator.SimulatorAPI;
 
 namespace VexSimulator.Sensors
 {
-    public class VisionSensor : MonoBehaviour
+    [SharableAPIDevice(DeviceTypes.Vision)]
+    public class VisionSensor : SharableAPIDevice
     {
-        public int port;
         private Light _light;
         private Color _currentColor;
 
+        [HideInInspector]
+        [SharableAPIParamField()]
+        public int rgbColor;
+        
         private void Start()
         {
             _light = GetComponentInChildren<Light>();
-
-            Hardware.OnVisionLEDChange += OnVisionLEDChange;
         }
 
         private void Update()
@@ -40,6 +42,12 @@ namespace VexSimulator.Sensors
         private static float NormalizeHexColorChannel(int channel)
         {
             return Mathf.Lerp(0, 1, Mathf.InverseLerp(0, 16 * 16, channel));
+        }
+
+        [SharableAPIParamMethod("rgbColor", true)]
+        public void OnLedChange(int value)
+        {
+            
         }
     }
 }

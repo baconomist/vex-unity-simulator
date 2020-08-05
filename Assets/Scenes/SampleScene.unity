@@ -429,7 +429,7 @@ GameObject:
   - component: {fileID: 479259004}
   - component: {fileID: 479259003}
   m_Layer: 0
-  m_Name: API
+  m_Name: SimulatorAPI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -971,6 +971,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1514250789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1617582195599579425, guid: ba5063fe78b2a0a4e9c3b6e4edd1a767,
+    type: 3}
+  m_PrefabInstance: {fileID: 5641512668941374321}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1514250790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514250789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b5b4957ea64a6fa377c7143026b0c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  port: 11
+  rgbColor: 0
 --- !u!1 &1569943722
 GameObject:
   m_ObjectHideFlags: 0

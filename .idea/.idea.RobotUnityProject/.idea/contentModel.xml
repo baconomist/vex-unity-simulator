@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Lucas\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Lucas\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_RobotUnityProject.-611811489.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Lucas\AppData\Roaming\JetBrains\Rider2020.1\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\Lucas\Desktop\Projects\2020-4659-Vex\CodeRepo\RobotUnityProject" t="IncludeRecursive">
+    <e p="C:\Users\Lucas\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Lucas\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_RobotUnityProject.-262387106.00" t="ExcludeRecursive" />
+    <e p="E:\CodeRepo\RobotUnityProject" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -32,11 +31,13 @@
           <e p="PInvokes.cs" t="Include" />
         </e>
         <e p="VexSimulator" t="Include">
+          <e p="AttributeResolver.cs" t="Include" />
           <e p="Attributes.cs" t="Include" />
           <e p="DLLReloaderUnity.cs" t="Include" />
           <e p="MotorizedWheel.cs" t="Include" />
           <e p="Robot.cs" t="Include" />
           <e p="Sensors" t="Include">
+            <e p="ExampleSensor.cs" t="Include" />
             <e p="VisionSensor.cs" t="Include" />
           </e>
           <e p="Simulator.cs" t="Include" />
@@ -45,13 +46,14 @@
             <e p="Editor" t="Include">
               <e p="SimulatorAPIEditor.cs" t="Include" />
             </e>
-            <e p="Hardware.cs" t="Include" />
             <e p="Logging.cs" t="Include" />
+            <e p="ParamHandler.cs" t="Include" />
             <e p="RobotEvents.cs" t="Include" />
+            <e p="SharableAPIDevice.cs" t="Include" />
             <e p="UnsafeCppAPI" t="Include">
               <e p="UnsafeAPIMethods.cs" t="Include" />
-              <e p="UnsafeHardware.cs" t="Include" />
               <e p="UnsafeLogging.cs" t="Include" />
+              <e p="UnsafeParamHandler.cs" t="Include" />
               <e p="UnsafeRobotEvents.cs" t="Include" />
             </e>
           </e>

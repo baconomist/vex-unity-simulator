@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 using VexSimulator.SimulatorAPI;
-using Hardware = VexSimulator.SimulatorAPI.Hardware;
 
 namespace VexSimulator
 {
@@ -17,7 +16,7 @@ namespace VexSimulator
         }
 
         public RobotMode mode;
-
+        
         public bool robotInitialized = false;
         public bool competitionInitialized = false;
         public bool autonomousInitialized = false;
@@ -31,9 +30,6 @@ namespace VexSimulator
         
         public void Awake()
         {
-            Hardware.OnMotorVoltageChange -= OnMotorVoltageChange;
-            Hardware.OnMotorVoltageChange += OnMotorVoltageChange;
-
             Simulator.RobotInitialize -= InitializeRobot;
             Simulator.RobotInitialize += InitializeRobot;
 

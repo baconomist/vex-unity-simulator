@@ -1,4 +1,6 @@
+using System.Runtime.ExceptionServices;
 using System.Runtime.InteropServices;
+using System.Security;
 using UnityNativeTool;
 
 namespace VexSimulator.SimulatorAPI.UnsafeCppAPI
@@ -7,7 +9,7 @@ namespace VexSimulator.SimulatorAPI.UnsafeCppAPI
     public static class UnsafeRobotEvents
     {
         [DllImport("CPPSimulatorAPI")]
-        public static extern void RobotInitialize();
+        public static extern void Initialize();
 
         [DllImport("CPPSimulatorAPI")]
         public static extern void CompetitionInitialize();
@@ -24,6 +26,8 @@ namespace VexSimulator.SimulatorAPI.UnsafeCppAPI
         [DllImport("CPPSimulatorAPI")]
         public static extern void UpdateOpControl();
 
+        // [HandleProcessCorruptedStateExceptions]
+        // [SecurityCritical]
         [DllImport("CPPSimulatorAPI")]
         public static extern void UpdateAutonomous();
     }

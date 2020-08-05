@@ -1,11 +1,8 @@
 using System;
-using System.Runtime.InteropServices;
-using System.Text;
 using System.Threading;
 using UnityEditor;
 using UnityEngine;
 using UnityNativeTool;
-using VexSimulator.SimulatorAPI.UnsafeCppAPI;
 
 namespace VexSimulator.SimulatorAPI
 {
@@ -29,20 +26,19 @@ namespace VexSimulator.SimulatorAPI
 
             Debug.Log("Setting up the rest of the API...");
             Logging.SetupLogHandlers();
-            Hardware.Setup();
+            ParamHandler.Setup();
         }
 
-        public static void Test()
+        public static void TestAuton()
         {
             RequireAPIInitialized();
 
-            UnsafeCppAPI.UnsafeRobotEvents.RobotInitialize();
+            UnsafeCppAPI.UnsafeRobotEvents.Initialize();
             UnsafeCppAPI.UnsafeRobotEvents.CompetitionInitialize();
             UnsafeCppAPI.UnsafeRobotEvents.InitializeAutonomous();
-
             new Thread(() => { UnsafeCppAPI.UnsafeRobotEvents.UpdateAutonomous(); }).Start();
         }
-
+        
         public static void ResetState()
         {
             // Loading/Unloading DLL Resets the API's state as the DLL is the "instance" of the API

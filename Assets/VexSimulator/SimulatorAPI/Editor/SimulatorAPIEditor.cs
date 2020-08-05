@@ -1,6 +1,8 @@
+using System.Threading;
 using UnityEditor;
 using UnityEngine;
 using VexSimulator.SimulatorAPI;
+using VexSimulator.SimulatorAPI.UnsafeCppAPI;
 
 namespace VexSimulator.Editor
 {
@@ -16,7 +18,15 @@ namespace VexSimulator.Editor
                 SimulatorAPI.APIMethods.RunTests();
 
             if(GUILayout.Button("Run Test() Method"))
-                SimulatorAPI.APIMethods.Test();
+                SimulatorAPI.APIMethods.TestAuton();
+
+            if (GUILayout.Button("Test Something"))
+            {
+                Debug.Log("ParamVal " + ParamHandler.RequestParam(1, "Motor", "voltage").int_val);
+                // Debug.Log(ParamHandler.RequestParam(11, "Vision", "rgbColor").int_val);
+                AttributeResolver.ResolveAttributes();
+                ParamHandler.UpdateRegisteredParams();
+            }
 
             base.OnInspectorGUI();
         }
